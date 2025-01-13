@@ -1,0 +1,16 @@
+data/
+├── raw/                 # Raw, unprocessed data files.
+│   ├── books/           # Raw text or PDFs of books.
+│   ├── articles/        # Scraped or downloaded news articles.
+│   ├── forums/          # Extracted conversations from Reddit, Quora, etc.
+│   └── cbt_worksheets/  # Unprocessed CBT resources.
+│
+├── processed/           # Cleaned and preprocessed datasets.
+│   ├── books/           # Tokenized or parsed book data.
+│   ├── articles/        # Summarized and cleaned articles.
+│   ├── forums/          # Labeled and cleaned conversational data.
+│   └── cbt_worksheets/  # Standardized CBT exercises.
+│
+└── embeddings/          # Precomputed embeddings for fast similarity searches.
+    ├── text_embeddings/ # Text data embeddings (e.g., books, articles).
+    └── intent_labels/   # Embeddings for intent or response matching.
